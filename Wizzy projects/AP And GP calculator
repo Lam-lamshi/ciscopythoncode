@@ -1,0 +1,33 @@
+#a program to calculate the nth term of an ap
+print( "Hi",user_name,"Welcome to my nth term calculator:")
+a=int(input("please insert the first term:"))
+n=int(input("please input the number of term of the AP:"))
+d=int(input("please input the common difference of the AP:"))
+Tn=a+(n-1)*d
+print(Tn)
+
+# a program to calculate gp
+print( "Hi",user_name,"Welcome to my G.p  calculator:")
+a=int(input("please insert the first term:"))
+r=int(input("please insert the common ratio of the gp:"))
+n=int(input("please input the the no of terms:"))
+Tn=a*r^(n-1)
+print(Tn)
+
+
+#program to solve the sum of an AP
+print( "Hi",user_name,"Welcome to my sum of a AP calculator:")
+a=float(input("please insert the first term:"))
+n=float(input("please input the number of term of the AP:"))
+d=float(input("please input the common difference of the AP:"))
+Sn= n * ( ( 2*a + (n-1) * d)/2)
+print(Sn)
+
+
+#program to calculate the sum of a GP
+print( "Hi,Welcome to my Sum of a Gp calculator:")
+user_name=(str(input("please input your name : ")))
+a=float(input("please input the first term:"))
+r=float(input("please input the common ratio:"))
+Sum_to_infinity=(1-r)/a
+print(Sum_to_infinity)

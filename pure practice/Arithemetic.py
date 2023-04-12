@@ -1,0 +1,11 @@
+from math import log10
+a=int(input("Enter your first value : "))
+b=int(input("Enter your second value : "))
+print(a ,"+",b,"is", a+b )
+print(a,"-",b,"is", a-b)
+print(a,"/",b,"is",a/b)
+print(a,"*",b,"is",a*b)
+print(a,"%",b,"is",a%b)
+print("the base logarithm of",a,"is","=",log10(a))
+print("the base logarithm of ",b,"is","=",log10(b))
+print(a,"^",b,"is",a**b)

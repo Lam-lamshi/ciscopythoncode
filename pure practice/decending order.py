@@ -1,0 +1,10 @@
+a=int(input("Enter the first number : "))
+b=int(input("Enter the second term : "))
+c=int(input("Enter the third term  "))
+mn=min(a,b,c)
+mx=max(a,b,c)
+md=a+b+c-mn-mx
+print("The number are sorted on descending order : ")
+print("",mx)
+print("",md)
+print("",mn)
